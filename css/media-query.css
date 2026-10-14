@@ -1,0 +1,4 @@
+/* Attorna's responsive system now lives in css/style.css. This file remains as a safe compatibility layer for older links. */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
